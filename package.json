@@ -1,13 +1,20 @@
 {
-  "name": "r14",
+  "name": "rc_router_ders2",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.4.0",
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^13.0.0",
     "@testing-library/user-event": "^13.2.1",
+    "axios": "^1.4.0",
+    "bootstrap": "^5.3.0",
+    "bootstrap-icons": "^1.10.5",
     "react": "^18.2.0",
+    "react-bootstrap": "^2.8.0",
     "react-dom": "^18.2.0",
+    "react-fontawesome": "^1.7.1",
+    "react-router-dom": "6.3",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.0"
   },
