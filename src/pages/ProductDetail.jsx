@@ -11,14 +11,14 @@ const ProductDetail = () => {
   return (
     <Container className="mt-3 w-50">
       <Row>
-        <Col className="my-2 col-6 mx-auto">
+        <Col xs={12} sm={8} md={6} lg={4} className="my-2 mx-auto">
           <Card className="shadow p-3">
             <Card.Title className="fw-bold">{product.title}</Card.Title>
             <Card.Img
               variant="top"
               src={product.image}
               className=""
-              style={{ width: "18rem" }}
+              style={{ width: "18rem",maxWidth: "100%", height: "auto" }}
             />
             <Card.Body>
               <Card.Text className="text-muted text-justify">
