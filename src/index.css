@@ -46,15 +46,20 @@
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
-  width: 700px;
+  
   font-weight: 700;
   text-shadow: 3px 3px 15px #000;
+  height: 30vh;
+  padding: 10px;
+  margin: 0;
 }
 .footer {
   height: 5vh;
+  width: 100%;
 }
 .nav {
   height: 7vh;
+  width: 100%;
 }
 .navLink {
   width: 100%;
