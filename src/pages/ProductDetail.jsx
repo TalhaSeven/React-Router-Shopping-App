@@ -9,10 +9,10 @@ const ProductDetail = () => {
   const navigate = useNavigate();
   const { state: product } = useLocation();
   return (
-    <Container className="mt-3 w-50">
+    <Container className="mt-3">
       <Row>
-        <Col xs={12} sm={8} md={6} lg={4} className="my-2 mx-auto">
-          <Card className="shadow p-3">
+        <Col sm={8} md={6} lg={4} className="my-2 mx-auto">
+          <Card className="shadow p-3 d-flex justify-content-center align-items-center">
             <Card.Title className="fw-bold">{product.title}</Card.Title>
             <Card.Img
               variant="top"
